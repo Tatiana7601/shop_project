@@ -51,7 +51,8 @@ public class Product {
     public boolean equals(Object o) {
         if (!(o instanceof Product)) return false;
         Product product = (Product) o;
-        return isActive == product.isActive && Double.compare(price, product.price) == 0 && Objects.equals(id, product.id) && Objects.equals(name, product.name);
+        return isActive == product.isActive && Double.compare(price, product.price) == 0
+                && Objects.equals(id, product.id) && Objects.equals(name, product.name);
     }
 
     @Override
