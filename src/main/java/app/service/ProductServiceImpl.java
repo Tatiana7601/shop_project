@@ -1,4 +1,4 @@
-package service;
+package app.service;
 
 import app.domain.Product;
 import app.exceptions.ProductNotFoundException;
