@@ -73,12 +73,12 @@ public class Product {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Product{");
+        final StringBuilder sb = new StringBuilder("\u001B[32m" + "                 Product :");
         sb.append("id=").append(id);
         sb.append(", isActive=").append(isActive);
         sb.append(", name='").append(name).append('\'');
         sb.append(", price=").append(price);
-        sb.append('}');
+        sb.append("\u001B[0m");
         return sb.toString();
     }
 }
