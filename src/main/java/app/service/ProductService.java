@@ -24,4 +24,6 @@ public interface ProductService {
     double getActiveProductsTotalCost();
 
     double getActiveProductsAveragePrice();
+
+
 }
